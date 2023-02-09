@@ -17,6 +17,8 @@ public class CommandBuilder {
     public static CommandHandler from(HashMap<String, Class<? extends CommandHandler>> commands, String[] args) {
         CommandLineInterpreter cli = new CommandLineInterpreter();
         HashMap<String, String> commandMap = cli.interpretate(args);
+        commandMap.put("mainCommand", "create_pdf");
+        commandMap.put("pdfName", "teste");
         return new CommandBuilder(commands).buildCommandFrom(commandMap);
     }
 

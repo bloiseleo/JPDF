@@ -5,6 +5,7 @@ import br.com.lion.interpreter.CommandBuilder;
 import br.com.lion.interpreter.CommandHandler;
 import br.com.lion.interpreter.MainCommandBuilder;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -19,7 +20,7 @@ public class Main {
     private static void registerCommands() {
         commands = MainCommandBuilder.generate(commandHandlers);
     }
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws IOException {
         registerCommands();
         CommandHandler commandHandler = CommandBuilder
                 .from(commands, args);

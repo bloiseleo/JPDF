@@ -1,5 +1,6 @@
 package br.com.lion.interpreter;
 
+import java.io.IOException;
 import java.util.HashMap;
 
 /**
@@ -10,7 +11,11 @@ import java.util.HashMap;
  */
 public abstract class CommandHandler {
     private final String commandName;
-    private final HashMap<String, String> params;
+    private HashMap<String, String> params = null;
+
+    public CommandHandler(String commandName) {
+        this.commandName = commandName;
+    }
 
     public CommandHandler(String commandName, HashMap<String, String> params) {
         this.params = params;
@@ -22,7 +27,7 @@ public abstract class CommandHandler {
      * It will be called to execute the command itself.
      * @return boolean
      */
-    public abstract boolean exec();
+    public abstract boolean exec() throws IOException;
     public String getCommandName() {
         return this.commandName;
     }

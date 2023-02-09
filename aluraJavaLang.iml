@@ -10,14 +10,31 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/bfopdf-2.27.2" />
+          <root url="jar://$MODULE_DIR$/lib/pdfbox-2.0.27.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/lib/bfopdf-2.27.2/example" />
-          <root url="file://$MODULE_DIR$/lib/bfopdf-2.27.2/example/handlers" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/lib/bfopdf-2.27.2" recursive="false" />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/commons-logging-1.2" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/lib/commons-logging-1.2/apidocs" />
+        </JAVADOC>
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib/commons-logging-1.2" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/fontbox-2.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>

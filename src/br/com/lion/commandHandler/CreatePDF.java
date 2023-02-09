@@ -1,16 +1,21 @@
 package br.com.lion.commandHandler;
 
-import org.faceless.pdf2.*;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDPage;
+import org.apache.pdfbox.pdmodel.PDPageContentStream;
+import org.apache.pdfbox.pdmodel.font.PDFont;
+import org.apache.pdfbox.pdmodel.font.PDType1Font;
 import br.com.lion.interpreter.CommandHandler;
-import java.awt.*;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.HashMap;
 
 public class CreatePDF extends CommandHandler {
 
     private String pdfName;
+
+    public CreatePDF() {
+        super("create_pdf");
+    }
 
     public CreatePDF(HashMap<String, String> params) {
         super("create_pdf", params);
@@ -36,17 +41,24 @@ public class CreatePDF extends CommandHandler {
         this.pdfName = this.pdfName.concat(".pdf");
     }
     @Override
-    public boolean exec() {
-        PDF pdf = new PDF();
-        PDFPage page = pdf.newPage("A4");
-        PDFStyle myStyle = new PDFStyle();
-        myStyle.setFont(new StandardFont(StandardFont.TIMES), 24);
-        myStyle.setFillColor(Color.black);
-        page.setStyle(myStyle);
-        page.drawText("Hello World!", 100, page.getWidth()-100);
-        System.out.println(this.getPathToPDF());
-        try (OutputStream out = new FileOutputStream(this.getPathToPDF())){
-            pdf.render(out);
+    public boolean exec()  {
+        PDDocument document = new PDDocument();
+        PDPage page = new PDPage();
+        document.addPage(page);
+        PDFont pdFont = PDType1Font.HELVETICA_BOLD;
+        try{
+            PDPageContentStream contentStream = new PDPageContentStream(document, page);
+            // Define a text content stream using the selected font, moving the cursor and drawing the text "Hello World"
+            contentStream.beginText();
+            contentStream.setFont( pdFont, 12 );
+            contentStream.moveTextPositionByAmount( 100, 700 );
+            contentStream.drawString( "Hello World" );
+            contentStream.endText();
+
+            // Make sure that the content stream is closed:
+            contentStream.close();
+            document.save( this.getPathToPDF());
+            document.close();
             return true;
         } catch (IOException exception) {
             System.out.println("[-] Check if the name provided to be a file is, actually, a directory.\n[-] Check if the file can be opened by the user executing this software.\n[-] Check if the file can be created.");
