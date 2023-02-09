@@ -1,7 +1,10 @@
 package br.com.lion.interpreter;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
 
 /**
  * This class represents the basic command you put into terminal.
@@ -38,5 +41,17 @@ public abstract class CommandHandler {
             throw new IllegalArgumentException("For " + this.getCommandName() + " you need to specify the param: " + key);
         }
         return result;
+    }
+
+    protected List<String> getAllParams(String ignore) {
+        List<String> allParams = new ArrayList<>();
+        Set<String> keySet = this.params.keySet();
+        for(String key : keySet) {
+            if (ignore == key) {
+                continue;
+            }
+            allParams.add(this.params.get(key));
+        }
+        return allParams;
     }
 }
