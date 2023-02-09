@@ -1,0 +1,469 @@
+Big Faceless Organization End User License Agreement
+Big Faceless PDF Library License
+
+
+IMPORTANT NOTICE TO END USER:
+
+CAREFULLY READ THE FOLLOWING LEGAL AGREEMENT. PLEASE NOTE THAT IF YOU DO NOT AGREE TO THE
+TERMS OF THIS AGREEMENT, DO NOT PRESS THE "I ACCEPT" BUTTON AT THE END. ONLY PRESS THE "I
+ACCEPT" BUTTON IF YOU AGREE TO THE TERMS OF THIS AGREEMENT.
+
+
+1       Definitions & interpretation
+
+1.1     Definitions
+
+In this Agreement, the following words and expressions will have the following meanings unless
+otherwise stated:
+
+'Authorised User' means the named person for whom a license has been paid by You. Use by
+anyone other than the named user is unlawful and automatically terminates your rights under
+this Agreement.
+
+'Development Environment' means the computers used to develop and maintain a Product linked to
+the PDF Library that are used exclusively by people involved in the development cycle of the
+Product. Specifically this includes Quality Assurance ("QA") or Test systems, and excludes
+"live" or production systems accessible to the end-users of the Product, and systems whose
+primary purpose is disaster recovery.
+
+'PDF Library', means the Big Faceless PDF Library which is a product of and is Copyright (c)
+Big Faceless Organization.
+
+'Licensor' means Kensington Software Management Limited (Company Number 4526134) whose
+registered address is: 4-6 Canfield Place, London NW63BT, England
+
+'Link to' means the PDF Library is linked in binary form to a product and is required by the
+build process of that product to build successfully.
+
+'Product' means a computer program, including a program required to generate the output of a
+website.
+
+'Website' means any Website owned and maintained by the Licensor relating to the Product.
+
+'You' are the person or organisation licensing the PDF Library and the Product and are,
+accordingly, the Licensee in respect of it.
+
+1.2     Interpretation
+
+1.2.1   Any headings in this Agreement are for ease of use and are not intended to form part
+of this Agreement nor effect its interpretation.
+
+1.2.2   Reference to something in the masculine form includes the feminine and neuter forms
+and vice versa and reference to the singular includes the plural and vice versa.
+
+1.2.3   Reference to clauses and schedules in this Agreement are to clauses of and schedules
+to this Agreement unless the context otherwise requires.
+
+1.2.4   For all purposes in this Agreement, "writing" includes electronic transmissions.
+
+
+2       License Grant
+
+2.1     The PDF Library product is licensed under exactly one of the following license types.
+You agree to abide by the restrictions listed below.
+
+(a) Trial Download License
+
+Under this License the PDF Library may be downloaded for free and used by You for a limited
+period for development and initial testing. The intention is to allow You time to assess
+whether the PDF Library is suitable for their purposes. Under this License, the PDF Library
+MAY NOT be used outside of a development environment.
+
+(b) CPU License
+
+Under this License You are granted the non-transferable, non-exclusive and perpetual right to
+link the PDF Library to part of an applet or product running on (or in the case of
+applets, downloaded from) a fixed number of production servers - defined as a computer run by
+You excluding the Development Environment. The price of this License depends on the total
+number of CPUs used by programs linked to the PDF Library, not the number of physical machines
+used. This License may be transferred between servers, provided that the number of server CPUs
+concurrently running products linked to the PDF Library never exceeds the number of server
+CPUs specified in this License Agreement.
+
+(c) OEM License
+
+(i) Under this License You are granted the global, irrevocable, non-transferable,
+non-exclusive and perpetual right to link the PDF Library to products requiring the PDF
+library as an integral part, and that are developed, marketed and distributed by You and
+distributed to third parties. The price of this License is based on the total number of
+products distributed that are linked to the PDF Library, including any non-free updates to
+the Product. The products distributed by You and linked to the PDF Library must add
+considerable functionality to the PDF Library. Programs, which in essence mimic the
+functionality of the PDF Library, or a subset thereof, are expressly prohibited under this
+License.
+
+(ii) This License includes the right for You to sub-license to third parties the
+right to use this PDF Library only as part of the product developed by You - any other use
+will require a separate license agreement with the Licensor. This License specifically
+excludes use which falls under the category of a "CPU License" as defined above.
+
+(iii) You undertake and warrant that you will not reveal, divulge or disclose to any third
+party whatsoever the key code of this OEM License and further undertake to embed the OEM key
+code in a secure manner.
+
+(d) Annual Subscription License
+
+Under this License You are granted the non-transferable and non-exclusive right to link the
+PDF Library to a website or intranet. The price of this License depends on the total number
+of CPUs used by programs linked to the PDF Library, not the number of physical machines
+used. Fees for this License are renewed annually as a subscription. This License may be
+transferred between servers, provided that the number of server CPUs concurrently running
+products linked to the PDF Library never exceeds the number of server CPUs specified in
+this License Agreement.
+
+2.2     Development License
+
+In addition to the License grants defined in 2.1, an annual charge may apply for running
+the PDF Library in a Development Environment. This charge will apply only while the Product
+is "live" - it specifically excludes the period when the product is under development and
+has not yet been released.
+
+
+3       Copyright
+
+3.1     You acknowledge that no title to the intellectual property in any part of the Product
+is transferred to You. You further acknowledge that title and full ownership rights to the
+Product will remain the exclusive property of The Licensor and its suppliers and You will
+not acquire any rights to the Product except as expressly set out in this Agreement. You agree
+that any copies of any part of the Product will contain the same proprietary notices which
+appear on and in the Product (as appropriate).
+
+3.2     The Licensor warrants that all intellectual property rights in the Product either
+reside with itself or its suppliers and that the Licensor is entitled to enter into this
+Agreement and that use of the Product by an Authorised User is not in breach of any third
+party's intellectual property rights. The Licensor agrees to indemnify You against all costs,
+claims and liabilities arising from breach of this warranty provided that you immediately
+notify the Licensor about any alleged breach and render all reasonable assistance to the
+Licensor (at the cost of the Licensor) in defending any such claim.
+
+3.3     You agree that this License does not include ownership of the source-code for the PDF
+library, which may be covered by a separate license.
+
+
+4       Third party copyright notices
+
+4.1     Some icons used by the PDFViewer section of this product were created by Mark James
+(http://www.famfamfam.com), and are used here with his kind permission.
+
+4.2     The PDF Library includes JBIG2 image decoding routines originally written by
+IDRsolutions and modified by the Licensor. A condition of distribution for these
+routines is that the following copyright notice be included:
+
+        Copyright (c) 2008, IDRsolutions
+        All rights reserved.
+
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+             * Redistributions of source code must retain the above copyright
+               notice, this list of conditions and the following disclaimer.
+             * Redistributions in binary form must reproduce the above copyright
+               notice, this list of conditions and the following disclaimer in the
+               documentation and/or other materials provided with the distribution.
+             * Neither the name of the IDRsolutions nor the
+               names of its contributors may be used to endorse or promote products
+               derived from this software without specific prior written permission.
+        
+         THIS SOFTWARE IS PROVIDED BY IDRsolutions ``AS IS'' AND ANY
+         EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+         WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+         DISCLAIMED. IN NO EVENT SHALL IDRsolutions BE LIABLE FOR ANY
+         DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+         (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+         LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+         ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+         (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+4.3     The PDF Library includes JPEG2000 image decoding routines originally written by
+Swiss Federal Institute of Technology-EPFL, Ericsson Radio Systems AB and Canon Research
+Centre France S.A. The source for these classes is available online at
+http://github.com/faceless2/jj2000. The classes are contained in the "bfopdf-jj2000.jar"
+file, which is an optional component and may be deleted. A condition of distribution for
+these routines is that the following copyright notice be included:
+
+        This software module was originally developed by Raphaël Grosbois and
+        Diego Santa Cruz (Swiss Federal Institute of Technology-EPFL); Joel
+        Askelöf (Ericsson Radio Systems AB); and Bertrand Berthelot, David
+        Bouchard, Félix Henry, Gerard Mozelle and Patrice Onno (Canon Research
+        Centre France S.A) in the course of development of the JPEG2000
+        standard as specified by ISO/IEC 15444 (JPEG 2000 Standard). This
+        software module is an implementation of a part of the JPEG 2000
+        Standard. Swiss Federal Institute of Technology-EPFL, Ericsson Radio
+        Systems AB and Canon Research Centre France S.A (collectively JJ2000
+        Partners) agree not to assert against ISO/IEC and users of the JPEG
+        2000 Standard (Users) any of their rights under the copyright, not
+        including other intellectual property rights, for this software module
+        with respect to the usage by ISO/IEC and Users of this software module
+        or modifications thereof for use in hardware or software products
+        claiming conformance to the JPEG 2000 Standard. Those intending to use
+        this software module in hardware or software products are advised that
+        their use may infringe existing patents. The original developers of
+        this software module, JJ2000 Partners and ISO/IEC assume no liability
+        for use of this software module or modifications thereof. No license
+        or right to this software module is granted for non JPEG 2000 Standard
+        conforming products. JJ2000 Partners have full right to use this
+        software module for his/her own purpose, assign or donate this
+        software module to any third party and to inhibit third parties from
+        using this software module for non JPEG 2000 Standard conforming
+        products. This copyright notice must be included in all copies or
+        derivative works of this software module.
+
+        Copyright (c) 1999/2000 JJ2000 Partners.
+
+4.4     The PDF Library includes Brotli decompression routines originally written by
+Google. The source for these classes is available online at
+https://github.com/google/brotli.  A condition of distribution for those routines is
+that the following copyright notice be included.
+
+        Copyright (c) 2009, 2010, 2013-2016 by the Brotli Authors.
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+
+4.5     The PDF Library includes the "Earcut" polygon triangulation algorithm written
+by Mapbox (see https://github.com/earcut4j/earcut4j). It is included under the
+following license:
+
+        Copyright (c) 2016, Mapbox
+
+        Permission to use, copy, modify, and/or distribute this software for any purpose
+        with or without fee is hereby granted, provided that the above copyright notice
+        and this permission notice appear in all copies.
+
+        THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+        REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+        FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+        INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+        OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+        TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+        THIS SOFTWARE.
+
+
+4.6     The API documentation includes code from the SyntaxHighlighter project (see
+http://alexgorbatchev.com/SyntaxHighlighter/). It is included under the following license:
+
+        Copyright (c) 2003, 2004 Jim Weirich
+
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+4.7     The PDF Library includes fonts derived from the "TeX Gyre" collection
+of fonts (see http://www.gust.org.pl/projects/e-foundry/tex-gyre). They are
+included under the following license:
+
+        This is version 1.0, dated 22 June 2009, of the GUST Font License.
+        (GUST is the Polish TeX Users Group, http://www.gust.org.pl)
+
+        For the most recent version of this license see
+        http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
+        or
+        http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+
+        This work may be distributed and/or modified under the conditions
+        of the LaTeX Project Public License, either version 1.3c of this
+        license or (at your option) any later version.
+
+        Please also observe the following clause:
+        1) it is requested, but not legally required, that derived works be
+           distributed only after changing the names of the fonts comprising this
+           work and given in an accompanying "manifest", and that the
+           files comprising the Work, as listed in the manifest, also be given
+           new names. Any exceptions to this request are also given in the
+           manifest.
+
+           We recommend the manifest be given in a separate file named
+           MANIFEST-<fontid>.txt, where <fontid> is some unique identification
+           of the font family. If a separate "readme" file accompanies the Work,
+           we recommend a name of the form README-<fontid>.txt.
+
+        The latest version of the LaTeX Project Public License is in
+        http://www.latex-project.org/lppl.txt and version 1.3c or later
+        is part of all distributions of LaTeX version 2006/05/20 or later.
+
+5       Restrictions
+
+5.1     You may not resell, transfer, rent or lease the Product. You are not allowed to
+transfer the rights obtained under this License to any third party, except as defined under
+the Runtime License defined above.
+
+5.2     The PDF Library is distributed in digital form only from the Website. We will not
+distribute the product in any other form.
+
+
+6       Support
+
+6.1     In the event of bugs being found in the PDF Library over and above those known bugs
+and limitations listed in the accompanying documentation and not including enhancements to the
+documented functionality of the PDF Library, the Licensor agrees to provide updates free of
+charge which can be downloaded from the Website and used with the same license key as the
+original version licensed by You. Although the licensor will endeavour to keep the PDF Library
+bug-free, they specifically exclude any warranty to that effect, and also specifically deny
+any time span either express or implied for the correction of any bugs found.
+
+6.2     Technical support over and above the level described in the clause above is available
+by email only from the licensor at an additional cost.
+
+
+7       Reverse Engineering
+
+You will not attempt to reverse compile, modify, translate, or disassemble the Product or any
+part of the Product (including anything that may from time to time be available in the
+Members' Area) in whole or in part (except as provided for by section 50B of the Copyright,
+Design and Patents Act 1998 (as amended)).
+
+
+8       Limited Warranties and Exclusions of Liability
+
+8.1     No warranty of any kind, including the implied warranty of merchantability and fitness
+for purpose, is available if this product is licensed under the "Trial Download" License
+defined above. For other license types ONLY, the following apply
+
+8.2     The Licensor warrants that the Product may be used substantially in accordance with
+any online information on the Website at the time of purchase and with any demonstration
+contained within the Website and as described in its accompanying documentation.
+
+8.3     The Licensor further warrants that the PDF Library is free from backdoors and any
+form of disablement, which would damage or render any system using the PDF Library
+inoperable.  The Licensor further warrants that even in the event of the breach of this
+License by You, the Licensor will not impair the operation of the PDF Library except pursuant
+to an order of court.
+
+8.4     EXCEPT FOR THE LIMITED WARRANTIES SET OUT ABOVE, THE LICENSOR MAKES NO OTHER EXPRESS
+OR IMPLIED WARRANTIES TO THE EXTENT PERMITTED BY LAW AND SPECIFICALLY DISCLAIMS THE WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IF SUCH DISCLAIMER IS NOT PERMITTED
+BY LAW, THE DURATION OF ANY SUCH IMPLIED WARRANTIES IS LIMITED TO [90] DAYS FROM THE DATE OF
+DELIVERY.
+
+8.5     Any information and advice on the Website is by its nature general and should not be
+relied on by You without obtaining independent advice and verification. The Licensor cannot
+therefore accept responsibility for any losses arising as a result of reliance placed on such
+information and advice.
+
+
+9       Severability
+
+In the event of invalidity of any provision of this Agreement, the parties agree that such
+invalidity shall not affect the validity of the remaining portions of this Agreement.
+
+
+10      No Liability for Consequential Damages
+
+EXCEPT FOR THE LICENSOR'S INDEMNIFICATION AND EACH PARTY'S CONFIDENTIALLITY OBLIGATIONS
+HEREUNDER, IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY CONSEQUENTIAL, SPECIAL, PUNITIVE,
+INCIDENTAL OR INDIRECT DAMAGES OF ANY KIND ARISING OUT OF THE USE OF THE PRODUCT, EVEN IF THE
+LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  IN NO EVENT WILL THE LICENSOR'S
+LIABILITY FOR ANY CLAIM, WHETHER IN CONTRACT, TORT OR ANY OTHER THEORY OF LIABILITY, EXCEED
+THE LICENSE FEE PAID BY YOU.
+
+
+11      Confidentiality Obligations
+
+11.1    If either party (the "Recipient") obtains access to Confidential information of the
+other through disclosure by the other (the "Disclosing Party") or by any other means, the
+Recipient agrees that it will not use the Confidential Information (except as authorised in
+the Agreement) or disclose the Confidential Information to any third party without the prior
+written consent of the Disclosing Party. For the purpose of this Agreement, "Confidential
+Information" shall mean all information about or belonging to the Disclosing Party that is not
+a matter of public knowledge and all trade secrets and intellectual property owned or licensed
+by the Disclosing Party. The restrictions of this paragraph shall not apply to any information
+that: (i) is already rightfully known by the Recipient free of any confidentiality obligation;
+(ii) is or becomes publicly known except through any wrongful act of the Recipient; (iii) is
+independently developed by the Recipient without breach of this Agreement; or (iv) is subject
+to disclosure pursuant to a subpoena, judicial or governmental requirement or order, provided
+that the Recipient has given the Disclosing Party sufficient prior notice of such subpoena,
+requirement, or order, to permit the Disclosing Party a reasonable opportunity to object to
+the subpoena, requirement, or order and to allow the Disclosing Party the opportunity to seek
+a protective order or other appropriate remedy. The obligations described in this paragraph
+shall survive termination of the Agreement.
+
+11.2    Either party shall have the right to publish, cause to have published, or use the name
+of the other party and any information about its relationship with the other party, including
+but not limited to the inclusion of the other party's name in reference lists or for
+advertising or other promotional purposes, unless this is expressly prohibited in writing by
+either party.
+
+
+12      Termination
+
+12.1    The Licensor may forthwith terminate this Agreement (without prejudice to any prior
+accrued rights) in the event of the following:
+
+12.1.1  You failing to remedy any material breach of this Agreement (insofar as such breach is
+reasonably capable of remedy) within 30 days of written notice of such breach;
+
+12.1.2  You being subject to a bankruptcy or compulsary winding up notice or a receiving
+order or having an administrator appointed in respect of your affairs (save as part of a
+restructuring or amalgamation otherwise than by reason of your insolvency).
+
+12.2    You will forthwith on termination remove all copies of any part of the Product from
+your computer system(s) and remove all license keys.
+
+
+13      General
+
+13.1    If any party does not fully enforce its rights under this Agreement at any time, it
+will not prevent it from doing so later in respect of a particular breach or any future
+breach.
+
+13.2    Any notice served pursuant to this Agreement must be in writing, addressed to a party
+at the last known address for that party and sent by:
+
+(a)  certified mail or common overnight courier, in which case the notice will (if properly
+addressed) be deemed received upon the signature of the addressee; or
+(b) by hand
+
+13.3    Neither party will be responsible for any breach of this Agreement insofar as that
+breach is a result of an act of event beyond that party's reasonable control but if that
+situation arises, the relevant party will make reasonable efforts to overcome that problem
+as soon as reasonably possible.
+
+13.4    This Agreement is not intended to benefit anyone other than the parties to it.
+
+
+14      Entire Agreement
+
+14.1    This is the entire agreement between You and The Licensor which supersedes any prior
+agreement, whether written or oral, relating to the subject matter of this Agreement.
+
+14.2    We reserve the right to amend our terms and conditions at any time. The amended
+terms will be effective from the date they are  posted on our website.
+
+
+15      Applicable Law
+
+This Agreement is subject to the laws of England and Wales the parties agree to submit all
+disputes for settlement to the Courts of England and Wales.
+
+
+$Id: LICENSE.txt 36576 2020-05-19 15:21:04Z mike $

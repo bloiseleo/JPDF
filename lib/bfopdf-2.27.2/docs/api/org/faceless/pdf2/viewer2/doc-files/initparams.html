@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="../../../../../javadoc.css"/>
+</head>
+<body>
+
+<body>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar.top">
+<!--   -->
+</a>
+<div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a></div>
+<a name="navbar.top.firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/AbstractAction.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../index-files/index-1.html">Index</a></li>
+<li><a href="../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="contentContainer">
+<h1>Initialization Parameters</h1>
+<p>
+Many aspects of the PDF Viewer can be controlled via "initialization parameters", which provides an alternative way to configure the viewer when API access isn't desirable (for instance, when running as an applet). Parameters are documented in the API specification - for example, the <a href="../feature/ThumbnailPanel.html">ThumbnailPanel</a> feature contains the following entry in its javadoc:
+</p>
+<div class="initparams">
+The following initialization parameters can be specified to configure this feature.
+<table>
+<tr><th>editable</th><td><code>true</code> or <code>false</code>, for <a href="../feature/ThumbnailPanel.html#setEditable(boolean)">setEditable()</a></td></tr>
+<tr><th>scrollFollow</th><td><code>true</code> or <code>false</code>, for <a href="../feature/ThumbnailPanel.html#setScrollFollow(boolean)">setScrollFollow()</a></td></tr>
+</table>
+</div>
+
+<p>
+Exactly how you set these parameters depends on how the viewer is being run. If it's a command line application, they can be specified directly on the command line.
+<pre class="example">
+java -Dorg.faceless.pdf2.viewer2.feature.ThumbnailPanel.editable=false \
+     -Dorg.faceless.pdf2.viewer2.defaultViewport=SinglePageDocumentViewport \
+     org.faceless.pdf2.viewer2.PDFViewer
+</pre>
+<p>
+Alternatively if the viewer is being run as an applet, they can be specified as parameters to the applet. In this case the "org.faceless.pdf2.viewer2" feature is optional.
+</p>
+<pre class="example">
+&lt;applet code="org.faceless.pdf2.viewer2.PDFViewerApplet" name="pdfapplet" archive="bfopdf.jar" mayscript&gt;
+  &lt;param name="defaultViewport" value="SinglePageDocumentViewport" /&gt;
+  &lt;param name="feature.ThumbnailPanel.editable" value="false" /&gt;
+  &lt;param name="feature.TextTool.highlightColor" value="0x80FF0000" /&gt;
+&lt;/applet&gt;
+</pre>
+</div>
+<hr />
+Copyright &#169; 2001-2009 Big Faceless Organization
+</body>
