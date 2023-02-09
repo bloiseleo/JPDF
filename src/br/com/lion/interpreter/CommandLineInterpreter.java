@@ -2,6 +2,13 @@ package br.com.lion.interpreter;
 
 import java.util.HashMap;
 
+/**
+ * This class will generate a HashMap containing the command you typed and the params you have passed.
+ * Example: {
+ *     mainCommand: example,
+ *     key: value
+ * }
+ */
 public class CommandLineInterpreter {
 
     public HashMap<String, String> interpretate(String[] args) {

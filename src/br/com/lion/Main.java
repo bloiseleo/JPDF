@@ -12,7 +12,6 @@ import java.util.HashMap;
 public class Main {
     private final static ArrayList<Class<? extends CommandHandler>> commandHandlers = new ArrayList<>(
             Arrays.asList(
-                    // Add commands here
                     CreatePDF.class
             )
     );

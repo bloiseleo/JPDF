@@ -10,14 +10,14 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/bfopdf-2.27.2" />
+          <root url="file://$MODULE_DIR$/lib/bfopdf-2.27.2" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/Downloads/bfopdf-2.27.2/example" />
-          <root url="file://$USER_HOME$/Downloads/bfopdf-2.27.2/example/handlers" />
+          <root url="file://$MODULE_DIR$/lib/bfopdf-2.27.2/example" />
+          <root url="file://$MODULE_DIR$/lib/bfopdf-2.27.2/example/handlers" />
         </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Downloads/bfopdf-2.27.2" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib/bfopdf-2.27.2" recursive="false" />
       </library>
     </orderEntry>
   </component>

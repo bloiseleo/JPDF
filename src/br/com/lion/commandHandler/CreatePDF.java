@@ -6,18 +6,15 @@ import java.awt.*;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.HashMap;
 
 public class CreatePDF extends CommandHandler {
 
-    private String pdfName = "example.pdf";
+    private String pdfName;
 
-    public CreatePDF() {
-        super("create_pdf");
-    }
-
-    public CreatePDF(String pdfName) {
-        super("create_pdf");
-        this.pdfName = pdfName;
+    public CreatePDF(HashMap<String, String> params) {
+        super("create_pdf", params);
+        this.pdfName = this.getParam("pdfName");
         this.treatName();
     }
     private void removeExtensionIfExists() {

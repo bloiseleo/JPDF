@@ -22,9 +22,11 @@ public class CommandBuilder {
 
     public CommandHandler buildCommandFrom(HashMap<String, String> commandMap) {
         Class<? extends CommandHandler> commandHandlerClassRef = commands.get(commandMap.get("mainCommand"));
+        commandMap.remove("mainCommand");
+        Class[] parameterType = new Class[1];
+        parameterType[0] = HashMap.class;
         try {
-            CommandHandler commandHandler = commandHandlerClassRef.getDeclaredConstructor().newInstance();
-            return commandHandler;
+            return commandHandlerClassRef.getDeclaredConstructor(parameterType).newInstance(commandMap);
         } catch (InvocationTargetException | IllegalAccessException | NoSuchMethodException | InstantiationException e) {
             throw new RuntimeException(e);
         }
