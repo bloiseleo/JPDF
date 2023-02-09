@@ -27,6 +27,11 @@ public class Main {
         CommandHandler commandHandler = CommandBuilder
                 .from(commands, args);
 
-        commandHandler.exec();
+        if(!commandHandler.exec()) {
+            System.out.println(" [-] Command Fail");
+            return;
+        }
+
+        System.out.println(" [+] Command Executed Successfully");
     }
 }
