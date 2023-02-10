@@ -1,4 +1,0 @@
-content	bfopdfviewer	content/
-locale	bfopdfviewer	en-US	locale/en-US/
-skin	bfopdfviewer	classic/1.0	skin/
-overlay	chrome://browser/content/browser.xul	chrome://bfopdfviewer/content/firefoxOverlay.xul
