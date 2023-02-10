@@ -1,5 +1,6 @@
 package br.com.lion;
 
+import br.com.lion.commandHandler.ConvertDOCXtoPDF;
 import br.com.lion.commandHandler.CreatePDF;
 import br.com.lion.commandHandler.MergePDF;
 import br.com.lion.interpreter.CommandBuilder;
@@ -14,7 +15,8 @@ public class Main {
     private final static ArrayList<Class<? extends CommandHandler>> commandHandlers = new ArrayList<>(
             Arrays.asList(
                     CreatePDF.class,
-                    MergePDF.class
+                    MergePDF.class,
+                    ConvertDOCXtoPDF.class
             )
     );
     private static HashMap<String, Class<? extends CommandHandler>> commands = new HashMap<>();

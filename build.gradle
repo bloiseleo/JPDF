@@ -9,13 +9,16 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven {
+        url 'https://releases.aspose.com/java/repo/'
+    }
 }
 
 dependencies {
+    implementation 'org.apache.pdfbox:pdfbox:2.0.27'
+    implementation 'fr.opensagres.xdocreport:org.apache.poi.xwpf.converter.pdf:1.0.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    implementation group: 'org.apache.pdfbox', name: 'pdfbox', version: '2.0.1'
-    implementation group: 'com.aspose', name: 'aspose-words', version: '23.1', classifier: 'jdk17'
 }
 
 test {
